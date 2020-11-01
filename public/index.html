@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;1,500&family=Roboto:wght@500&display=swap"
+    rel="stylesheet">
+  <link href="libs/fontawesome/css/all.min.css" rel="stylesheet">
+  <link href="libs/aos-master/aos.css" rel="stylesheet">
+  <link rel="stylesheet/less" type="text/css" href="css/styles.less" crossorigin="anonymous" />
+
+</head>
+
+<body>
+<!-- <header>
+  <nav id="navbar-example2" class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#fat">@fat</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#mdo">@mdo</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#one">one</a>
+          <a class="dropdown-item" href="#two">two</a>
+          <div role="separator" class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#three">three</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+</header> -->
+
+  <section class="top-profile"
+    data-aos="fade-up"
+    data-aos-once="false"
+    data-aos-easing="ease-in-out"
+    data-aos-anchor-placement="top-center"
+  >
+    <div class="overlay"></div>
+    <div class="container">
+      <article class="header-info row">
+        <div class="col-sm-6">
+          <div class="animation-letter">
+            <div class="tool-bar">~/Project/profile.js <span class="btn-reload-code"><i class="fas fa-sync-alt"></i><span></div>
+
+<div id="string-type">
+  <span class="var-highlight">var</span> me = {
+    name: <span class="string-highlight">'Ha Qui'</span>,
+    age: <span class="number-highlight">27</span>,
+    career: <span class="string-highlight">'Developer'</span>,
+    experience: <span class="string-highlight">'4 years'</span>
+ };
+</div>
+<!-- http://cvresumetemplate.com/maha-personal-cv-resume-html-template/home-two.html -->
+<pre id="typewriter"></pre>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="avatar-profile">
+            <div class="img-border">
+              <img src="https://cdn2.vectorstock.com/i/1000x1000/20/76/man-avatar-profile-vector-21372076.jpg">
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="about-me"
+    data-aos="fade-up"
+    data-aos-once="false"
+    data-aos-easing="ease-in-out"
+    data-aos-anchor-placement="top-center"
+  >
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <canvas id="ab-img"></canvas>
+          <!-- <img src="images/ab-img.png" alt="About me" class="ab-img" id="ab-img-hide"> -->
+        </div>
+        <div class="col-sm-6 skill">
+          <h1><p>About Me</p></h1>
+          <p>
+            Hello, I’m a Ha Qui, web-developer based on VietNam.
+          </p>
+          <ul class="bag-skill"></ul>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="contact-me" 
+    data-aos="fade-up"
+    data-aos-once="false"
+    data-aos-easing="ease-in-out"
+    data-aos-anchor-placement="top-center"
+  >
+    <div class="bg-overlay-footer"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1><p>contact me</p></h1>
+        </div>
+        <div class="col-sm-5">
+          <div class="profile-info">
+            <ul>
+              <li>
+                <i class="fa fa-envelope"></i>
+                <a href="mailto:havanqui1993@gmail.com">havanqui1993@gmail.com</a>
+              </li>
+              <li>
+                <i class="fa fa-phone"></i>
+                <a href="tel:0362279012">(+84) 362 279 012</a>
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <address>Tan Binh District, Ho Chi Minh City</address>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-7">
+          <form action="" class="form-contact">
+            <div class="form-group">
+              <input type="text" class="form-control" name="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" placeholder="Your Message" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="submit" class="btn btn-outline-primary" value="Send" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+<script type="text/javascript" src="libs/jquery/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="libs/bootstrap/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="libs/fontawesome/js/all.min.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="libs/aos-master/aos.js" crossorigin="anonymous"></script>
+<script as="script" crossorigin="anonymous" rel="preload" src="libs/less/less.min.js"></script>
+<script type="text/javascript" src="libs/typed/typed.min.js"></script>
+
+
+<script type="text/javascript" src="js/scripts.js"></script>
+
+</html>
