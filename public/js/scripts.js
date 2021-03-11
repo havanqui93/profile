@@ -70,6 +70,8 @@
     }
     
     let txt = $('#string-type').html();
+	let age = new Date().getFullYear() - 1993;
+	txt = txt.replace('{age}', age);
 	setupTypewriter(document.getElementById('typewriter'), 300, txt).type();
     
     $('.btn-reload-code').click(function (){ 
@@ -126,7 +128,10 @@
 	};
 
 	setTimeout(() => {
-		AOS.init();
+		AOS.init({
+			offset : 10,
+			once : true
+		});
 	}, 1000);
 
 })(jQuery)

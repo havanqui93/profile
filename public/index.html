@@ -39,23 +39,18 @@
   </nav>
 </header> -->
 
-  <section class="top-profile"
-    data-aos="fade-up"
-    data-aos-once="false"
-    data-aos-easing="ease-in-out"
-    data-aos-anchor-placement="top-center"
-  >
+  <section class="top-profile">
     <div class="overlay"></div>
     <div class="container">
       <article class="header-info row">
         <div class="col-sm-6">
-          <div class="animation-letter">
+          <div class="animation-letter" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-center">
             <div class="tool-bar">~/Project/profile.js <span class="btn-reload-code"><i class="fas fa-sync-alt"></i><span></div>
 
 <div id="string-type">
   <span class="var-highlight">var</span> me = {
     name: <span class="string-highlight">'Ha Qui'</span>,
-    age: <span class="number-highlight">27</span>,
+    age: <span class="number-highlight">{age}</span>,
     career: <span class="string-highlight">'Developer'</span>,
     experience: <span class="string-highlight">'4 years'</span>
  };
@@ -65,7 +60,7 @@
           </div>
         </div>
         <div class="col-sm-6">
-          <div class="avatar-profile">
+          <div class="avatar-profile" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-center">
             <div class="img-border">
               <img src="https://cdn2.vectorstock.com/i/1000x1000/20/76/man-avatar-profile-vector-21372076.jpg">
             </div>
@@ -75,19 +70,14 @@
     </div>
   </section>
 
-  <section class="about-me"
-    data-aos="fade-up"
-    data-aos-once="false"
-    data-aos-easing="ease-in-out"
-    data-aos-anchor-placement="top-center"
-  >
+  <section class="about-me">
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <canvas id="ab-img"></canvas>
+          <canvas id="ab-img" data-aos="flip-left" data-aos-easing="ease-in-out"></canvas>
           <!-- <img src="images/ab-img.png" alt="About me" class="ab-img" id="ab-img-hide"> -->
         </div>
-        <div class="col-sm-6 skill">
+        <div class="col-sm-6 skill" data-aos="flip-right" data-aos-easing="ease-in-out">
           <h1><p>About Me</p></h1>
           <p>
             Hello, I’m a Ha Qui, web-developer based on VietNam.
@@ -99,12 +89,7 @@
     </div>
   </section>
 
-  <section class="contact-me" 
-    data-aos="fade-up"
-    data-aos-once="false"
-    data-aos-easing="ease-in-out"
-    data-aos-anchor-placement="top-center"
-  >
+  <section class="contact-me">
     <div class="bg-overlay-footer"></div>
     <div class="container">
       <div class="row">
@@ -112,7 +97,7 @@
           <h1><p>contact me</p></h1>
         </div>
         <div class="col-sm-5">
-          <div class="profile-info">
+          <div class="profile-info" data-aos="zoom-in" data-aos-easing="ease-in-out">
             <ul>
               <li>
                 <i class="fa fa-envelope"></i>
@@ -130,7 +115,7 @@
           </div>
         </div>
         <div class="col-sm-7">
-          <form action="" class="form-contact">
+          <form action="" class="form-contact" data-aos="zoom-in" data-aos-easing="ease-in-out">
             <div class="form-group">
               <input type="text" class="form-control" name="name" placeholder="Your Name">
             </div>
@@ -156,8 +141,6 @@
 <script type="text/javascript" src="libs/aos-master/aos.js" crossorigin="anonymous"></script>
 <script as="script" crossorigin="anonymous" rel="preload" src="libs/less/less.min.js"></script>
 <script type="text/javascript" src="libs/typed/typed.min.js"></script>
-
-
 <script type="text/javascript" src="js/scripts.js"></script>
 
 </html>
